@@ -30,7 +30,7 @@ class _AssistantScreenState extends State<AssistantScreen> {
   void initState() {
     super.initState();
     // PUT YOUR BRAND NEW SECURE API KEY HERE
-    const apiKey = 'AIzaSyB4Jzo5Zw9Ig5L0m9WhfILgjGsuOSjeBsw'; 
+    const apiKey = 'PM the user'; 
     
     _model = GenerativeModel(
       model: 'gemini-2.5-flash',
